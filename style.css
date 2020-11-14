@@ -739,22 +739,22 @@
 				}
 		
 	
-        table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
 }
 th, td {
   padding: 5px;
   text-align: left; 
   text-align: center;   
 }
+
 .free{
     background-color: yellow;
     color: black;
 }
 	
-	.button {
+.button {
   border: none;
   color: white;
   padding: 15px 32px;
