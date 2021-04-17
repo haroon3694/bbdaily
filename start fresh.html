@@ -47,13 +47,7 @@
                 padding-left: 0% !important;
             }
     }
-
-
-
-  
-      
-
-
+    
     body {
         margin: 0px;
         padding: 0px;
@@ -114,24 +108,28 @@ width: 150px;
 			}
 
 </style>
-		<script>
-$(document).ready(function () {
-  $(".navbar-nav li a").click(function(event) {
-    $(".navbar-collapse").collapse('hide');
-  });
-});
-
-
-            </script>
-            <script>
-	
-                    $(function () {
-                  $(document).scroll(function () {
-                    var $nav = $(".fixed-top");
-                    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-                  });
+        <script>
+                $(document).ready(function () {
+                $(".navbar-nav li a").click(function(event) {
+                $(".navbar-collapse").collapse('hide');
                 });
-                    </script>
+                });
+        </script>
+        <script>
+            $(function () {
+            $(document).scroll(function () {
+            var $nav = $(".fixed-top");
+            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+            });
+        </script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143613964-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-143613964-1');
+        </script>
 	
 	
 </head>

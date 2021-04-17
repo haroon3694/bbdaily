@@ -20,30 +20,32 @@
 	<link rel="icon" type="image/ico" href="img/bbdailylogo.webp" />
 	<link rel="canonical" href="https://www.bbdaily.com/" />
 
-
-		
-
-		<script>
-$(document).ready(function () {
-  $(".navbar-nav li a").click(function(event) {
-    $(".navbar-collapse").collapse('hide');
-  });
-});
+	<script>
+			$(document).ready(function () {
+			$(".navbar-nav li a").click(function(event) {
+				$(".navbar-collapse").collapse('hide');
+			});
+			});
 	</script>
 	<script>
-	
-	$(function () {
-  $(document).scroll(function () {
-    var $nav = $(".fixed-top");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-  });
-});
+		$(function () {
+		$(document).scroll(function () {
+			var $nav = $(".fixed-top");
+			$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+		});
+		});
+	</script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143613964-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-143613964-1');
 	</script>
 </head>
 <body>
-
-
-	
 	
 	
 <!-- Navigation -->
@@ -474,13 +476,24 @@ $(document).ready(function () {
 		<a class="" >Mumbai</a> |
         <br>
         <a class="" >Gurgaon</a> |
-        
         <a class="">Kolkata</a> |
 		<a class="" >Chennai</a> |
 		<a class="" >Delhi</a> |
         <br>
 		<a class="" >Noida</a> |
-        <a class="" >Hyderabad</a> 
+        <a class="" >Hyderabad</a>|
+		<a href=""> Lucknow </a> |
+		<a href=""> Kanpur </a> |
+		<br>
+		<a href=""> Vishakhapatnam </a> |
+		<a href=""> Vijayawada </a> |
+		<a href=""> Guntur </a> |
+		<a href=""> Chandigarh </a> |
+		<br>
+		<a href=""> Tricity </a> |
+		<a href=""> Patna </a> |
+		<a href=""> Indore </a> |
+		<a href=""> Kochi </a>  |
         
 	</div>    
         
@@ -546,6 +559,11 @@ $(document).ready(function () {
 						Pune<br>
 						Mumbai<br>
 						Gurgaon<br>
+						Lucknow <br>
+						Kanpur <br>
+						Vishakhapatnam <br>
+						Vijayawada <br>
+						Guntur <br>
 					</div>
 					<div class="col-sm-4 text-justify font-weight-light ">
 						Kolkata<br>
@@ -553,6 +571,11 @@ $(document).ready(function () {
 						Delhi<br>
 						Noida<br>
 						Hyderabad<br>
+						Chandigarh <br>
+						Tricity <br>
+						Patna <br>
+						Indore <br>
+						Kochi <br>
 					</div>
 				</div>
 			</div>
