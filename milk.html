@@ -70,7 +70,11 @@
     }
     }
  
-  
+    .nav-pills {
+    display: flex;
+    justify-content: center;
+    }
+
       </style>  
 		<script>
 $(document).ready(function () {
@@ -87,7 +91,19 @@ $(document).ready(function () {
   gtag('js', new Date());
   gtag('config', 'UA-143613964-1');
 </script>
-	
+
+
+<script> 
+  $(document).ready(function(){ 
+          $("#pills-tab a").click(function(e){
+              e.preventDefault();
+              $("#pills-tabContent-sub").load(window.location.href + " #pills-tabContent-sub" );
+              console.log('#City offer button was clicked');
+          });
+      });
+  </script>
+
+
 </head>
 <body class="pt-5 mt-4">
 
@@ -166,7 +182,7 @@ $(document).ready(function () {
                     <!--Internal Offer Ahmedabad & Mumbai	-->
                     <div class="tab-pane fade" id="pills-ahmedabad" role="tabpanel" aria-labelledby="pills-ahmedabad-tab">                  
                       <h3>Free Milk Offer for Ahmedabad & Mumbai	</h3>
-                      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                      <ul class="nav nav-pills mb-3" id="pills-tab1" role="tablist">
                       <li class="nav-item">
                         <a class="nav-link" id="pills-a2days-tab" data-toggle="pill" href="#pills-a2days" role="tab" aria-controls="pills-a2days" aria-selected="false"><img src="img/Buttons/milk offer/offer/Ahd _ Mumbai/1_bbdaily_website_button.jpg" width="180px" height="180px" alt="a2days"></a>
                       </li>
@@ -182,7 +198,7 @@ $(document).ready(function () {
                     <!--Internal Offer Bangalore & Hyderabad	-->
                     <div class="tab-pane fade" id="pills-bangalore" role="tabpanel" aria-labelledby="pills-bangalore-tab">                  
                       <h3>Free Milk Offer for Bangalore & Hyderabad	</h3>
-                      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                      <ul class="nav nav-pills mb-3" id="pills-tab1" role="tablist">
                       <li class="nav-item">
                         <a class="nav-link" id="pills-b2days-tab" data-toggle="pill" href="#pills-b2days" role="tab" aria-controls="pills-b2days" aria-selected="false"><img src="img/Buttons/milk offer/offer/Bangalore _ Hyderabad/1_bbdaily_website_button.jpg" width="180px" height="180px" alt="b2days"></a>
                       </li>
@@ -198,7 +214,7 @@ $(document).ready(function () {
                     <!--Internal Offer Chennai, Kolkata & Pune	-->
                     <div class="tab-pane fade" id="pills-chennai" role="tabpanel" aria-labelledby="pills-chennai-tab">                  
                       <h3>Free Milk Offer for Chennai, Kolkata & Pune</h3>
-                      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                      <ul class="nav nav-pills mb-3" id="pills-tab1" role="tablist">
                       <li class="nav-item">
                         <a class="nav-link" id="pills-c2days-tab" data-toggle="pill" href="#pills-c2days" role="tab" aria-controls="pills-c2days" aria-selected="false"><img src="img/Buttons/milk offer/offer/Chennai, Kolkata _ Pune/1_bbdaily_website_button.jpg" width="180px" height="180px" alt="c2days"></a>
                       </li>
@@ -214,7 +230,7 @@ $(document).ready(function () {
                     <!--Internal Offer Delhi, Gurgaon & Noida	-->
                     <div class="tab-pane fade" id="pills-delhi" role="tabpanel" aria-labelledby="pills-delhi-tab">                  
                       <h3>Free Milk Offer for Delhi, Gurgaon & Noida</h3>
-                      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                      <ul class="nav nav-pills mb-3" id="pills-tab1" role="tablist">
                       <li class="nav-item">
                         <a class="nav-link" id="pills-d3days-tab" data-toggle="pill" href="#pills-d3days" role="tab" aria-controls="pills-d3days" aria-selected="true"><img src="img/Buttons/milk offer/offer/NCR/1_bbdaily_website_button.jpg" width="180px" height="180px" alt="d3days"></a>
                       </li>
@@ -230,7 +246,7 @@ $(document).ready(function () {
                     <!--Internal Offer T2 Citites	-->
                     <div class="tab-pane fade" id="pills-t2" role="tabpanel" aria-labelledby="pills-t2-tab">                  
                       <h3>Free Milk Offer for Lucknow, Kanpur, Visakhapatnam, Vijayawada, Guntur, Chandigarh Tricity, Patna, Indore & Kochi</h3>
-                      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                      <ul class="nav nav-pills mb-3" id="pills-tab1" role="tablist">
                       <li class="nav-item">
                         <a class="nav-link" id="pills-t4days-tab" data-toggle="pill" href="#pills-t4days" role="tab" aria-controls="pills-t4days" aria-selected="false"><img src="img/Buttons/milk offer/offer/T2/1_bbdaily_website_button.jpg" width="180px" height="180px" alt="t4days"></a>
                       </li>
@@ -243,7 +259,7 @@ $(document).ready(function () {
 <!--Internal Offer Buttons ends	-->
 
 <!--Internal Offer Terms & Conditions Starts	-->
-                  <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-content" id="pills-tabContent-sub">
 
                       <!--Ahmedabad & Mumbai	-->
                       <div class="tab-pane fade" id="pills-a2days" role="tabpanel" aria-labelledby="pills-a2days-tab">
