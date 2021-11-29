@@ -32,11 +32,34 @@
       html,
       body {
         background-color: #f2f2f2;
+        scroll-behavior: smooth;
       }
 
       strong {
         font-weight: bold;
         color: red;
+      }
+
+      ul {
+        list-style-type: none !important;
+      }
+
+      .btn-info {
+        background-color: transparent !important;
+        border: 10px;
+        border-color: blue;
+      }
+      .btn {
+        border: 10px;
+        border-color: blue;
+      }
+
+      button {
+        color: white !important;
+      }
+
+      .nav-tabs {
+        border-bottom: none;
       }
 
       @media screen and (max-width: 1000px) {
@@ -57,10 +80,12 @@
         });
       });
     </script>
+
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-143613964-1"
     ></script>
+
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -70,7 +95,7 @@
       gtag("config", "UA-143613964-1");
     </script>
   </head>
-  <body>
+  <body class="pt-5 mt-4">
     <!-- Navigation -->
 
     <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
@@ -81,7 +106,6 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="navbar-header">
         <a class="navbar-brand img-fluid" href="../../index.html"
           ><img
@@ -90,63 +114,49 @@
             alt="bbdailylogo"
         /></a>
       </div>
-
       <div class="collapse navbar-collapse" id="collapse_target">
         <ul class="navbar-nav ml-auto mr-5">
           <li class="nav-item">
             <a class="nav-link pr-3" href="../../index.html"> Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pr-3" href="../../subscription.html"
-              >FS Offers</a
-            >
+            <a class="nav-link pr-3" href="../../tnc.html">T&C</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <!--Navigation ends here-->
-
     <div class="container">
       <div class="row">
         <div class="col-12 text-center" style="padding-top: 10%">
-          <h1>Terms and Conditions</h1>
-          <p
-            class="text-left"
-            style="padding-top: 5%; font-weight: normal; font-size: 16px"
-          >
-            • The subscription coupon is applicable only on the following 5 SKUs
-            from Akshayakalpa- Amrutha A2 Organic Curd 500 g Pouch; Organic Curd
-            200 g Pouch; Organic A2 Probiotic Buttermilk Spiced 200 ml Pouch;
-            Curd - Set, Artisanal, Organic 200 g Cup; and Curd - Set, Artisanal,
-            Organic 400 g Cup <br />
-            • The coupon is valid during the offer period 28th Oct, 2021 to 15th
-            Nov, 2021 only. <br />
-            • The coupon is valid in the following cities only - Bangalore,
-            Chennai, and Hyderabad. <br />
-            • The coupon is valid for all bbdaily customers. <br />
-            • The customer should have a minimum bbdaily wallet balance of
-            Rs.1000/- to avail the offer. <br />
-            • The customer can use the coupon only once. <br />
-            • There will be 1 free delivery of the subscribed product after
-            every 5 paid deliveries. <br />
-            So every 6th delivery is free. eg: (Paid-Paid-Paid-Paid-Paid-Free).
-            <br />
-            • The maximum number of free products is 5 quantities in total.
-            <br />
-            • This subscription coupon offer becomes void if the user
-            unsubscribes from the product once the coupon is applied. <br />
-            • The free quantity remaining for the subscription can be viewed
-            from the ‘my subscription’ section on the app. <br />
-            • A customer can apply the coupon only once. <br />
-            • Free delivery schedule for a daily frequency subscription starting
-            on 1st is 6th, 12th, 18th, 24th, and 30th. <br />
-            <br />
-          </p>
-          <a href="https://bbdaily.app.link/e645yqo8L6"
-            ><button class="button button1" style="align-items: center">
-              Subscribe now
-            </button></a
+          <div class="container">
+            <h1>Terms and Conditions</h1>
+            <p
+              class="text-left"
+              style="padding-top: 5%; font-weight: bold; font-size: 16px"
+            >
+              <strong
+                >Get 10 days free milk! <br />
+                Coupon Code: JM10 <br />
+              </strong>
+              <br />
+              <br />
+              • Every 4th day one day free up to maximum 10 days free milk. 1st
+              delivery is free. <br />
+              • Minimum wallet balance of Rs.1000/- or more to avail the offer.
+              <br />
+              • Only for Selective Existing Customer. <br />
+              • Offer Applicable only on Godrej Jersey Milk <br />
+              • Offer is void if the customer unsubscribes <br />
+              • Coupons applicable once per address <br />
+              • bbdaily reserves the right to withdraw the offer at any point in
+              time <br />
+              • Offer Applicable City: Hyderabad <br />
+            </p>
+          </div>
+
+          <a href="bbdaily://topupactivity?main=10121&subcat=10134&name=Milk"
+            ><button class="button button1">Order now</button></a
           >
         </div>
       </div>
