@@ -2,6 +2,26 @@
 @import url("https://use.typekit.net/zch2gan.css");
 @import url("https://use.typekit.net/zch2gan.css");
 
+
+.tncbody{
+	font-weight: normal; 
+	font-size: 16px;
+}
+
+.tnchead{
+	padding-top: 5%; 
+	font-weight: bold; 
+	font-size: 16px;
+	color: red;
+}
+
+.tncterms{
+	padding-top:5%; 
+	font-weight:bold; 
+	font-size: 16px;
+	color: red;
+}
+
 /*---Media Queries --*/
 
 @media (max-width: 1000px) {
@@ -298,9 +318,6 @@
 						width: 1370px;
 					}
 				}
-
-			
-
 					.padtop{
 						margin-top: -18px;
 					}
